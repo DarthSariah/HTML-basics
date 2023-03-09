@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <!-- External Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Internal Styles -->
+    <style>
+      p {
+        color: green;
+      }
+    </style>
+
+    <!-- Documentation for CSS basics -->
+    <!-- https://www.w3schools.com/css/css_intro.asp -->
+    <!-- https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics -->
+  </head>
+  <body>
+    <h1>CSS - Cascading Style Sheets</h1>
+
+    <h2>To apply CSS we have 3 ways</h2>
+    <ul class="make-purple">
+      <li class="make-red">Inline Styles</li>
+      <li class="make-red" id="this-is-unique">Internal Styles</li>
+      <li class="make-red">External Styles</li>
+    </ul>
+    <!-- Children elements inherit the values of the parent -->
+    <!-- If the children get their own version of the property (color) -->
+    <!-- They will override it -->
+
+    <!-- If an element has a class and an id that both own the same property (color) -->
+    <!-- ID will always override the class -->
+
+    <p>
+      <b>Inline styles</b> are styles we add directly over an element inside the
+      HTML page using the attribute <b>style</b>.
+    </p>
+    <!-- Inline styles -->
+    <p style="color: blue; font-size: 35px">
+      <b>Internal styles</b> are styles we put inside the <b>head</b> element of
+      our HTML document using the <b>style</b> element tag.
+    </p>
+    <p>
+      <b>External styles</b> are styles we write in a file with
+      <b>.css</b> extention and link it using the <b>link</b> element tag inside
+      our <b>head</b> tag in the HTML document. The <b>link</b> tag takes 2
+      attributes, <b>rel</b> (which needs the value 'stylesheet') and the
+      <b>src</b> which needs the file name.
+    </p>
+
+    <h3>Notes</h3>
+    <p>
+      Using styles we got a hierarchy. What that means is that
+      <b>inline styles</b> override the other two (external, internal).
+    </p>
+    <p><b>Internal styles</b> override the external ones.</p>
+    <p>After every CSS rule, we need to end with a semicolon (;)</p>
+
+    <div class="box"></div>
+  </body>
+</html>

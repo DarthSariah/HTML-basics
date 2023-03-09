@@ -1,0 +1,60 @@
+/* Selector (p) */
+p {
+  /* This is a rule */
+  /* Properties (color) */
+  /* Values (red) */
+  color: red;
+  /* This is also a rule */
+  font-size: 14px;
+} /* This is a CSS ruleset */
+
+/* Selectors can be 1 of 3 things. */
+/* 1. Element selector (ex. p) */
+/* 2. Class selector (ex. .make-red) */
+/* 3. ID selector (ex. #navigation-top) */
+
+/* Differnces between Class selectors and ID selectors */
+/* 1. Class selectors can be used on multiple elements */
+/* 1.1 When defining a class we add a dot (.) before the name */
+/* 2. ID selectors can only be used on one element */
+/* 2.1 When defining an ID we add a hash (#) before the name */
+
+.make-purple {
+  color: purple;
+}
+
+#this-is-unique {
+  font-size: 20px;
+  color: coral;
+}
+
+.make-red {
+  color: red;
+}
+
+/* Naming classes and IDs should use a method called snake-case */
+/* Snake-case is when you use dashes to separate words and everything is lowercase */
+/* Example: .this-is-a-class */
+
+/* We have one last selector that is more advanced callsed pseudo-selector */
+/* Pseudo-selectors are used to select elements based on a state */
+/* What is a state? */
+/* A state is when an element is in a certain condition, like on hover, clicked, active, etc... */
+
+/* Ex. */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+/* We want to target the hover state by adding a semicolon (:) after the classname (or another selector)(.box) */
+/* Then we add the pseudo-selector (hover) */
+
+.box:hover {
+  background-color: blue;
+}
+
+/* Some other basic states we may have are: */
+/* :focus */
+/* :visited */
