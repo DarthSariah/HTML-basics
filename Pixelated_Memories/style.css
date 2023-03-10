@@ -1,12 +1,12 @@
-.nav-list {
+/* Change inline-flex to just flex so you don't have issues with width in larger screens */
+/* https://prnt.sc/bx4ZC2b_6Moy */
+/* Both inline-flex and flex will make the element a flexbox container that we will see later on what it is */
+/* But if you put inline in front means just that. It is inline instead of block (its like span instead of div) */
+/* So beeing inline means it will take only as much width as it needs to fill the space and not all the width */
+
+.nav-bar {
   list-style: none;
-  /* Change inline-flex to just flex so you don't have issues with width in larger screens */
-  /* https://prnt.sc/bx4ZC2b_6Moy */
-  /* Both inline-flex and flex will make the element a flexbox container that we will see later on what it is */
-  /* But if you put inline in front means just that. It is inline instead of block (its like span instead of div) */
-  /* So beeing inline means it will take only as much width as it needs to feel the space and not all the width */
-  display: inline-flex;
-  align-items: center;
+  display: flex;
 }
 
 ul li a:hover {
@@ -15,7 +15,7 @@ ul li a:hover {
 }
 
 ul li a {
-  display: inline-block;
+  display: block;
   padding: 15px 30px;
   color: #333;
   text-decoration: none;
@@ -26,9 +26,4 @@ ul li a {
   width: 30px;
   background-color: #555;
   border-radius: 50%;
-}
-
-#search-bar {
-  padding-left: 700px;
-  padding-right: 20px;
 }
