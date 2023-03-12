@@ -2,3 +2,15 @@
   padding: 0;
   margin: 0;
 }
+
+#nav-bar {
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+#menu ul {
+  list-style: none;
+  display: flex;
+}
