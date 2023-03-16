@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 20px;
+      }
+
+      nav {
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+      }
+
+      ul li {
+        padding: 10px;
+      }
+
+      ul li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      #secret:hover {
+        cursor: not-allowed;
+      }
+
+      #logo {
+        margin-left: 20px;
+      }
+
+      #button {
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo">Logo</div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Help</li>
+          <li>Contact</li>
+          <li id="secret">Secret</li>
+        </ul>
+        <div id="button">Logout</div>
+      </nav>
+    </header>
+  </body>
+</html>
