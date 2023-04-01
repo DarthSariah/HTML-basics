@@ -28,6 +28,12 @@
   align-items: center;
 }
 
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .bottom-links {
   display: flex;
   justify-content: center;
