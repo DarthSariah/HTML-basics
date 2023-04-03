@@ -1,21 +1,24 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   background-color: #1c1c1c;
   font-family: sans-serif;
-  color: #eee;
+  color: rgb(204, 204, 204);
+  font-family: "Proxima Nova";
 }
 
 .top-nav {
   display: flex;
   justify-content: end;
   align-items: center;
+  padding-top: 40px;
+  padding-right: 10px;
 }
 
 .top-nav ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .top-nav ul li {
@@ -35,6 +38,16 @@
 }
 
 .bottom-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  font-size: 15px;
+}
+
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
