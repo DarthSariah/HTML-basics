@@ -25,30 +25,97 @@
   padding: 0 20px;
 }
 
-#logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#logo img {
+  display: block;
+  margin: 0 auto;
 }
 
-.search-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#main {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding-top: 200px;
 }
 
 .bottom-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 20px;
+  color: #eee;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bottom-links a {
+  color: #eee;
+}
+
+.bottom-links img {
+  padding: 0 5px;
 }
 
 i {
   font-size: 15px;
+  padding: 7px;
 }
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.top-nav ul li:hover,
+.top-nav ul li:hover i {
+  color: white;
+  cursor: pointer;
+}
+
+.burger-menu:hover {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.search-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar div {
+  background-color: #333;
+  display: grid;
+  place-items: center;
+  padding: 0 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar div:hover i {
+  color: #eee;
+}
+
+.search-bar div:hover {
+  background-color: #444;
+}
+
+.search-bar i {
+  font-size: 23px;
+  background-color: inherit;
+}
+
+.search-bar input {
+  display: block;
+  width: 100%;
+  background-color: #333;
+  max-width: 590px;
+  border-left: 1px solid #333;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  border-right: none;
+  padding: 15px;
+  border-radius: 5px 0 0 5px;
+  font-size: 18px;
+}
+
+.search-bar input:focus {
+  outline: none;
 }
