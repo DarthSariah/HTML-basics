@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Main Page</title>
+    <title>DuckDuckGo — Privacy, simplified.</title>
+    <link rel="icon" href="https://duckduckgo.com/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.cdnfonts.com/css/proxima-nova-2"
+    />
+    <script
+      src="https://kit.fontawesome.com/b9b6cf91a7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
-    <h3>Navigation Menu</h3>
 
-    <div class="topnav">
-      <a href="Main_Page.html">Main Page</a>
-      |
-      <a href="HTML_Elements.html">HTML Elements</a>
-      |
-      <a href="HTML_Attributes.html">HTML Attributes</a>
-      |
-      <a href="Tables.html">Tables</a>
-      |
-      <a href="Forms.html">Forms</a>
+  <body>
+    <div class="top-nav">
+      <ul>
+        <li class="center" style="gap: 10px">
+          Privacy, simplified. <i class="fa-solid fa-angle-down"></i>
+        </li>
+        <li class="center" style="gap: 10px">
+          <i class="fa-solid fa-bullhorn"></i
+          ><i class="fa-solid fa-angle-down"></i>
+        </li>
+        <li class="center"><i class="fa-solid fa-bars burger-menu"></i></li>
+      </ul>
+    </div>
+    <div id="main">
+      <div id="logo">
+        <img
+          src="https://duckduckgo.com/assets/logo_homepage.alt.v108.svg"
+          alt="logo"
+          width="205"
+          height="200"
+        />
+      </div>
+      <div class="search-bar">
+        <input type="text" />
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="bottom-links">
+        Privacy, simplified.
+        <img src="https://duckduckgo.com/assets/icons/cta/heart.svg" />
+        <a href="https://duckduckgo.com/spread"> Help Spread DuckDuckGo!</a>
+      </div>
     </div>
   </body>
 </html>

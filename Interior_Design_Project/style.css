@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.carrot {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNS4yOTgnIGhlaWdodD0nOCc+PGRlZnM+PGNsaXBQYXRoIGlkPSdhJz48cGF0aCBkYXRhLW5hbWU9J1BhdGggMTUxNScgZD0nTTIuOTY1LTI0LjI5MWEuODEyLjgxMiAwIDAwLTEuMTg0IDAgLjkwNi45MDYgMCAwMDAgMS4yNDFsNS43MzIgNi4xOTItNS43MzIgNi4xMTFhLjkwNi45MDYgMCAwMDAgMS4yNDEuODE1LjgxNSAwIDAwLjU5Mi4yNTcuODE2LjgxNiAwIDAwLjU5Mi0uMjU3bDYuMzI1LTYuNzMxYS45MDguOTA4IDAgMDAwLTEuMjQyeicgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMCAyNiknIGZpbGw9JyM1MDUwNTAnIGNsaXAtcnVsZT0nZXZlbm9kZCcvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGRhdGEtbmFtZT0nR3JvdXAgMjkxMicgdHJhbnNmb3JtPSdyb3RhdGUoOTAgOS4xNDMgNy42MDgpJyBjbGlwLXBhdGg9J3VybCgjYSknPjxwYXRoIGRhdGEtbmFtZT0nUGF0aCAxNTE0JyBkPSdNLTMuOTM3LTMuOTJoMTcuMXYyNi4xMjRoLTE3LjF6JyBmaWxsPScjNTA1MDUwJy8+PC9nPjwvc3ZnPg==);
+  height: 100%;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+header nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #505050;
+  font-size: 16px;
+  padding: 15px 0;
+  position: relative;
+}
+
+header nav ul li a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #f15a31;
+  transition: height 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+header nav svg {
+  cursor: pointer;
+}
+
+header nav ul {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.img {
+  width: 100%;
+}
+
+#hero-img {
+  height: 440px;
+  object-fit: cover;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main article {
+  padding: 0 70px;
+}
