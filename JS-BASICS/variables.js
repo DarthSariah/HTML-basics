@@ -62,6 +62,10 @@ let euroINeedToTravel = 140; // I need 140 euro to travel
 
 let moneyINeedInLei = euroINeedToTravel * exchangeRate2; // money I need in lei
 
+//  mod (remainder) and division
+let div = 10 / 3; // 3.3333333333333335
+let mod = 10 % 3; // 1
+
 // console.log("How much money do I need in lei?: ", moneyINeedInLei - bankAmount);
 
 // 1.2 - arrays - list of items - [] - index starts from 0
@@ -83,6 +87,59 @@ let person = {
   firstName: "Andra",
   lastName: "Toterman",
   age: 25,
+  husband: {
+    firstName: "Stathis",
+    lastName: "Stathopoulos",
+    age: 25,
+  },
+  fruits: [
+    {
+      name: "apple",
+      quantity: 5,
+      price: 2,
+    },
+    {
+      name: "banana",
+      quantity: 10,
+      price: 1,
+    },
+    {
+      name: "orange",
+      quantity: 15,
+      price: 1.5,
+    },
+  ],
+};
+
+const houseItems = {
+  kitchenTable: true,
+  kitchenChairs: 4,
+  kitchenCupboard: true,
+  kitchenFridge: true,
+  kidsRoomsTable: true,
+  kidsRoomsChairs: 2,
+  kidsRoomsCupboard: true,
+  kidsRoomsFridge: false,
+};
+
+const houseItems2 = {
+  kitchen: {
+    table: true,
+    colors: ["red", "blue", "green"],
+    jars: {
+      jam: 2,
+      honey: 1,
+    },
+    chairs: 4,
+    cupboard: true,
+    fridge: true,
+  },
+  kidsRooms: {
+    table: true,
+    chairs: 2,
+    cupboard: true,
+    fridge: false,
+  },
 };
 
 // we have 2 ways to access this data
@@ -91,12 +148,12 @@ let person = {
 // 2. way using bracket notation
 // console.log(person["firstName"]);
 
-console.log(
-  "My name is " +
-    person.firstName +
-    " " +
-    person.lastName +
-    " and I am " +
-    person.age +
-    " years old."
-);
+// console.log(
+//   "My name is " +
+//     person.firstName +
+//     " " +
+//     person.lastName +
+//     " and I am " +
+//     person.age +
+//     " years old."
+// );
