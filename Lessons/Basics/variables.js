@@ -32,8 +32,8 @@ let myName = "John";
  * This is called assignment.
  * We can assign a value to the variable using the assignment operator (=).
  * The assignment operator (=) assigns a value to a variable.
- * The assignment operator (=) is different from the equal to operator (===).
- * The equal to operator (===) checks whether the two values are equal.
+ * The assignment operator (=) is different from the 'equal to' operator (===).
+ * The 'equal to' operator (===) checks whether the two values are equal.
  */
 let myAge; // undefined
 myAge = 18;
