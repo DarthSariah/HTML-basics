@@ -18,3 +18,16 @@ console.log(fullName); // John Doe
 let fullName2 = "John";
 fullName2 += " Doe";
 console.log(fullName2); // John Doe
+
+/**
+ * To split a string into an array of substrings, you can use the split() method.
+ * The split() method splits a string into an array of substrings, and returns the new array.
+ * Example: "John Doe".split(" ") is ["John", "Doe"]
+ * Example: "John Doe".split("") is ["J", "o", "h", "n", " ", "D", "o", "e"]
+ */
+
+/**
+ * To get the length of a string, you can use the length property.
+ * The length property returns the length of a string (number of characters).
+ * Example: "John Doe".length is 8
+ */

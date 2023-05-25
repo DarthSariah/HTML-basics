@@ -24,6 +24,15 @@ console.log(myArray[1]); // 2
 console.log(myArray[2]); // 3
 
 /**
+ * You can also access array items by using the .at() method.
+ * The difference between bracket notation and the .at() method is that the .at() method can accept negative indexes.
+ * Negative indexes count backwards from the end of the array.
+ */
+console.log(myArray.at(0)); // 1
+console.log(myArray.at(1)); // 2
+console.log(myArray.at(-1)); // 5
+
+/**
  * You can change an array item by referring to the index number.
  */
 myArray[0] = 10;
