@@ -150,7 +150,7 @@ do {
  * The Break Statement is written using the 'break' keyword.
  * The Break Statement is used when a condition is met and you want to exit the loop.
  *
- * The following code will print the numbers from 1 to 10 except for 5.
+ * The following code will print the numbers until 4. The loop will exit when the variable 'i' is equal to 5.
  */
 for (let i = 1; i <= 10; i++) {
   if (i === 5) {
