@@ -145,3 +145,23 @@ do {
   console.log(b);
   b++;
 } while (b <= 10);
+
+/**
+ * The Break Statement is used to exit a loop.
+ * The Break Statement is written using the 'break' keyword.
+ * The Break Statement is used when a condition is met and you want to exit the loop.
+ */
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    break;
+  }
+  console.log(i);
+}
+
+while (i <= 10) {
+  if (i === 5) {
+    break;
+  }
+  console.log(i);
+  i++;
+}
