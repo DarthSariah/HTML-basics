@@ -91,7 +91,7 @@ function helloWorld() {
 runFunction(helloWorld, 5); // Hello World, Hello World, Hello World, Hello World, Hello World
 
 /**
- * Now let's create a function that takes in a function as a parameter and returns a function.
+ * Now let's create a function that takes in a parameter and returns a function.
  * This is called a Higher Order Function. A Higher Order Function is a function that takes in a function as a parameter or returns a function.
  *
  * The function 'returnFunction' takes in a function as a parameter and returns a function.
@@ -106,9 +106,12 @@ function returnFunction(num) {
 
 let xTimes5 = returnFunction(5); // xTimes5 is now a function that multiplies a number by 5
 let xTimes10 = returnFunction(10); // xTimes10 is now a function that multiplies a number by 10
+let xTimes100 = returnFunction(100); // xTimes100 is now a function that multiplies a number by 100
 
 let x5Value = xTimes5(5);
 let x10Value = xTimes10(5);
+let x100Value = xTimes100(5);
 
 console.log(x5Value); // 25
 console.log(x10Value); // 50
+console.log(x100Value); // 500
