@@ -103,7 +103,7 @@ switch (a) {
  * The For Loop is used when you know the number of times you want to execute the block of code.
  */
 for (let i = 1; i <= 10; i++) {
-  console.log(i);
+  console.log(i); // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 }
 
 /**
@@ -122,7 +122,7 @@ for (let i = 1; i <= 10; i++) {
  */
 let i = 1;
 while (i <= 10) {
-  console.log(i);
+  console.log(i); // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
   i++;
 }
 
@@ -142,7 +142,7 @@ while (i <= 10) {
  */
 let b = 1;
 do {
-  console.log(b);
+  console.log(b); // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
   b++;
 } while (b <= 10);
 
@@ -162,6 +162,20 @@ while (i <= 10) {
   if (i === 5) {
     break;
   }
-  console.log(i);
+  console.log(i); // 1, 2, 3, 4
   i++;
+}
+
+/**
+ * The Continue Statement is used to skip an iteration of a loop.
+ * The Continue Statement is written using the 'continue' keyword.
+ * The Continue Statement is used when a condition is met and you want to skip the rest of the code in the loop and go to the next iteration.
+ *
+ * The following code will print the numbers from 1 to 10 except for 5.
+ */
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    continue;
+  }
+  console.log(i); // 1, 2, 3, 4, 6, 7, 8, 9, 10
 }
