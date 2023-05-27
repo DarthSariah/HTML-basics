@@ -62,7 +62,6 @@ if (z === 5) {
  * The block of code to be executed is written inside curly braces.
  * The 'case' keyword is used to specify the value of the variable.
  * The 'case' keyword is followed by the value of the variable and a colon (:).
- * The block of code to be executed is written inside curly braces.
  * The 'break' keyword is used to exit the Switch Statement.
  *
  * You can have as many 'case' statements as you want.
@@ -155,7 +154,7 @@ for (let i = 1; i <= 10; i++) {
   if (i === 5) {
     break;
   }
-  console.log(i);
+  console.log(i); // 1, 2, 3, 4
 }
 
 while (i <= 10) {
