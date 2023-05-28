@@ -47,10 +47,10 @@ console.log(myArray); // [10, 2, 3, 4, 5, 6]
 
 /**
  * You can remove an item from an array by using the pop() method.
- * The pop() method removes the last item from an array.
+ * The pop() method removes the last item from an array. Pop() returns the removed item and can be stored in a variable.
  */
-myArray.pop();
-console.log(myArray); // [10, 2, 3, 4, 5]
+let removedItem = myArray.pop(); // 6
+console.log(myArray, removedItem); // [10, 2, 3, 4, 5], 6
 
 /**
  * You can find the length of an array by using the length property.
