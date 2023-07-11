@@ -39,8 +39,7 @@ console.log(exponentiation); // 25
 
 /**
  * Assignment Operators are used to assign values to variables.
- * The most common assignment operator is the equal to operator (=).
- * The equal to operator (=) assigns a value to a variable.
+ * The 'equal to' operator (=) assigns a value to a variable.
  *
  * The following code will print the result of various assignment operations.
  */
@@ -77,7 +76,7 @@ a **= b; // a = a ** b (25)
  * Type coercion is the automatic or implicit conversion of values from one data type to another.
  * Coercion is dangerous because it can lead to unexpected results and bugs in your code.
  *
- * To change the data type of a value, we can use the Number() function.
+ * To change the data type of a value (usually String) to a number, we can use the Number() function.
  * The Number() function converts the object argument to a number that represents the object's value.
  * Example: Number("5") is 5
  * Example: Number("John") is "NaN" (Not a Number)
