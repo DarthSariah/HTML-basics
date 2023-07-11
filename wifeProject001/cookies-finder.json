@@ -1,0 +1,158 @@
+[
+  {
+    "name": "__cf_bm",
+    "value": "Zyiw68GZykHPMMm3t7mDX.KlTs1._cbqa6RALrPbMVI-1688656466-0-AWA7uaV2QXmx+XqWrJcU0BfE+cPf/4w3mkZORp49oDA9NFLvArxN4cEQ/6R9HUBFrQ8+RsODvh3w80dK1wvd3mPMOySFR/7mZPVAm1qipEBa",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": true,
+    "httpOnly": true,
+    "expiry": 1688658266,
+    "sameSite": "None"
+  },
+  {
+    "name": "SUSYPHPSESSID",
+    "value": "u7q1s8ie6ifkejkcjp4qv28f5b",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__cfruid",
+    "value": "8908ae4fd13b7b8aa42d0b4b5912836d3e237095-1688656469",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "MDPIPHPSESSID",
+    "value": "2aaedb9ff887b64b8dfe755446351695",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_gat",
+    "value": "1",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1688656529,
+    "sameSite": "None"
+  },
+  {
+    "name": "ln_or",
+    "value": "eyIxNzI2NDQ0IjoiZCJ9",
+    "path": "/",
+    "domain": "susy.mdpi.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1688742869,
+    "sameSite": "None"
+  },
+  {
+    "name": "_hjSessionUser_1635407",
+    "value": "eyJpZCI6Ijk5NzExMTAzLWY5NzctNTU4ZS1iYTcxLWI0Zjg4ZTQ3ZjUxNyIsImNyZWF0ZWQiOjE2ODg2NTY0NzAxMTksImV4aXN0aW5nIjpmYWxzZX0=",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": true,
+    "httpOnly": false,
+    "expiry": 1720192470,
+    "sameSite": "None"
+  },
+  {
+    "name": "_hjFirstSeen",
+    "value": "1",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": true,
+    "httpOnly": false,
+    "expiry": 1688658270,
+    "sameSite": "None"
+  },
+  {
+    "name": "_hjIncludedInSessionSample_1635407",
+    "value": "0",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": true,
+    "httpOnly": false,
+    "expiry": 1688656590,
+    "sameSite": "None"
+  },
+  {
+    "name": "_hjSession_1635407",
+    "value": "eyJpZCI6IjUzNGU0MWM0LWYxYmYtNDJjYi04MTg5LWJiZDNjZGU1ZjI5YSIsImNyZWF0ZWQiOjE2ODg2NTY0NzAxMjUsImluU2FtcGxlIjpmYWxzZX0=",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": true,
+    "httpOnly": false,
+    "expiry": 1688658270,
+    "sameSite": "None"
+  },
+  {
+    "name": "_hjAbsoluteSessionInProgress",
+    "value": "0",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": true,
+    "httpOnly": false,
+    "expiry": 1688658270,
+    "sameSite": "None"
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.1.1688656470167.431501171",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1696432470,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.2.678245440.1688656468",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1751728471,
+    "sameSite": "None"
+  },
+  {
+    "name": "_gid",
+    "value": "GA1.2.1325756848.1688656470",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1688742871,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ga_DCG3MM670F",
+    "value": "GS1.1.1688656468.1.0.1688656471.57.0.0",
+    "path": "/",
+    "domain": ".mdpi.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1751728471,
+    "sameSite": "None"
+  },
+  {
+    "name": "REVIEWERPHPSESSID",
+    "value": "71s1n74kttipeq6h9hipjenppi",
+    "path": "/",
+    "domain": "reviewer-api.susy.mdpi.com",
+    "secure": false,
+    "httpOnly": true,
+    "sameSite": "Lax"
+  }
+]
